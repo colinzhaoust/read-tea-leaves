@@ -1,0 +1,16 @@
+{
+ "case": "92793c43c27fab0a87980503",
+ "grid": 10,
+ "cell": "PT/marin",
+ "targets": [
+  6.2,
+  5.89,
+  5.7,
+  5.5,
+  5.42,
+  5.28,
+  5.22,
+  5.14
+ ],
+ "note": "recorded values as printed in the paper, rounded there to two decimals"
+}

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tea-leaves"
+version = "0.1.0"
+description = "Tea Leaves: can large language models predict language model training runs?"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "huggingface_hub"]
+
+[project.optional-dependencies]
+anthropic = ["anthropic"]
+
+[project.scripts]
+tea = "tea_leaves.cli:main"
+
+[tool.setuptools]
+packages = ["tea_leaves", "tea_leaves.backends"]
+
+[tool.setuptools.package-data]
+tea_leaves = ["prompts/*.txt"]

@@ -4,7 +4,7 @@
 
 ### Can Large Language Models Predict Language Model Training Runs?
 
-[**Paper**](paper/tea-leaves.pdf) (PDF; arXiv link coming soon) • [**Data**](https://huggingface.co/datasets/xinranz3/read-tea-leaves) • **Models:** [TeaReader-2B](https://huggingface.co/xinranz3/TeaReader-2B), [TeaReader-9B](https://huggingface.co/xinranz3/TeaReader-9B)
+[**Paper**](https://arxiv.org/abs/2611.30141) ([PDF](paper/tea-leaves.pdf)) • [**Data**](https://huggingface.co/datasets/xinranz3/read-tea-leaves) • **Models:** [TeaReader-2B](https://huggingface.co/xinranz3/TeaReader-2B), [TeaReader-9B](https://huggingface.co/xinranz3/TeaReader-9B)
 
 </div>
 
@@ -283,7 +283,9 @@ and the training pool of TeaReader-9B.
 @article{zhao2026tealeaves,
   title   = {Reading the Tea Leaves, Again: Can Large Language Models Predict Language Model Training Runs?},
   author  = {Zhao, Xinran and Li, Xiang and Chen, Tong and Tian, Jinchuan and Yu, Zichun and Wu, Tongshuang},
-  year    = {2026}
+  journal = {arXiv preprint arXiv:2611.30141},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2611.30141}
 }
 ```
 
